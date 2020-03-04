@@ -1,0 +1,20 @@
+{
+    "type": "package",
+    "name": "nishiurahiroki/simplePagenate",
+    "summary" : "A elm simple pagenater.",
+    "license": "BSD3",
+    "version": "1.0.0",
+    "source-directories": [
+        "src"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+      "elm/core": "1.0.5 <= v < 2.0.0",
+      "elm/html": "1.0.0 <= v < 2.0.0",
+      "elm-community/list-extra": "8.2.3 <= v < 9.0.0"
+    },
+    "test-dependencies": {
+        "direct": {},
+        "indirect": {}
+    }
+}
