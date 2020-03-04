@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name": "nishiurahiroki/simple-pagenate",
+    "name": "nishiurahiroki/elm-simple-pagenate",
     "summary" : "A elm simple pagenater.",
     "license": "MIT",
     "version": "1.0.0",
