@@ -1,8 +1,8 @@
 {
     "type": "package",
-    "name": "nishiurahiroki/simplePagenate",
+    "name": "nishiurahiroki/simple-pagenate",
     "summary" : "A elm simple pagenater.",
-    "license": "BSD3",
+    "license": "MIT",
     "version": "1.0.0",
     "source-directories": [
         "src"
@@ -13,8 +13,7 @@
       "elm/html": "1.0.0 <= v < 2.0.0",
       "elm-community/list-extra": "8.2.3 <= v < 9.0.0"
     },
+    "exposed-modules": ["SimplePager"],
     "test-dependencies": {
-        "direct": {},
-        "indirect": {}
     }
 }
