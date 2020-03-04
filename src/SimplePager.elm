@@ -1,11 +1,27 @@
 module SimplePager exposing (viewPager)
 
+{-| A elm simple pagenater.
+@docs viewPager
+-}
+
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import List.Extra as ListEx
 
-
+{-|
+    currentPage : Require, current page number.
+    totalPage : Require, total page number.
+    pageRangeDisplayed : Require, display page range number.
+    customPreviousLabel : custom previous button label.
+    customNextLabel : custom next button label.
+    customBreakLabel : custom break label.
+    pageClassName : page button style class name.
+    previousClassName : previous button style class name.
+    nextClassName : next button style class name.
+    breakClassName : break label style class name.
+    onClickPager : on pager click action, page button, previous, next.
+-}
 viewPager :
   {
     currentPage : Int,
@@ -13,8 +29,7 @@ viewPager :
     pageRangeDisplayed : Int,
     customPreviousLabel : Maybe String,
     customNextLabel : Maybe String,
-    customPageRangeLabel : Maybe String,
-    breakLabel : Maybe String,
+    customBreakLabel : Maybe String,
     pageClassName : Maybe String,
     previousClassName : Maybe String,
     nextClassName : Maybe String,
@@ -28,8 +43,7 @@ viewPager
     pageRangeDisplayed,
     customNextLabel,
     customPreviousLabel,
-    customPageRangeLabel,
-    breakLabel,
+    customBreakLabel,
     onClickPager,
     pageClassName,
     previousClassName,
@@ -53,7 +67,7 @@ viewPager
                         |> ListEx.unique
                         |> List.map (\page ->
                                         if -1 == page || -2 == page then
-                                          span [ class <| Maybe.withDefault "" breakClassName ] [ text <| Maybe.withDefault "..." breakLabel ]
+                                          span [ class <| Maybe.withDefault "" breakClassName ] [ text <| Maybe.withDefault "..." customBreakLabel ]
                                         else if -9 == page then
                                           text ""
                                         else if currentPage == page then
