@@ -1,0 +1,26 @@
+{
+  "name": "elm-simple-pagenate",
+  "version": "1.0.3",
+  "description": "A elm simple paginater.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx elm-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishiurahiroki/elm-simple-pagenate.git"
+  },
+  "author": "nishiurahiroki@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishiurahiroki/elm-simple-pagenate/issues"
+  },
+  "homepage": "https://github.com/nishiurahiroki/elm-simple-pagenate#readme",
+  "dependencies": {
+    "elm-test": "^0.19.1-revision2"
+  }
+}

@@ -3,7 +3,7 @@
     "name": "nishiurahiroki/elm-simple-pagenate",
     "summary": "A elm simple pagenater.",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "exposed-modules": [
         "SimplePager"
     ],
@@ -13,5 +13,7 @@
         "elm/html": "1.0.0 <= v < 2.0.0",
         "elm-community/list-extra": "8.2.3 <= v < 9.0.0"
     },
-    "test-dependencies": {}
+    "test-dependencies": {
+        "elm-explorations/test": "1.2.2 <= v < 2.0.0"
+    }
 }

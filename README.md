@@ -32,3 +32,12 @@ view model =
 
 ### image
 ![search](https://raw.githubusercontent.com/nishiurahiroki/elm-simple-pagenate/master/docs/image/usageSample1.gif)
+
+
+## Test
+```sh
+# Project initialize
+npm i
+# Run test.
+npx elm-test
+```
