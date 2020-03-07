@@ -31,4 +31,4 @@ view model =
 ```
 
 ### image
-![search](./docs/image/usageSample1.gif)
+![search](https://raw.githubusercontent.com/nishiurahiroki/elm-simple-pagenate/master/docs/image/usageSample1.gif)
